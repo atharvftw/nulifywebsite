@@ -1,0 +1,98 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* HeroCards background shadow */
+.shadow {
+  position: absolute;
+  background: hsl(var(--primary) / 80%); /* Bright blue */
+  border-radius: 24px;
+  rotate: 35deg;
+
+  width: 260px;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  height: 400px;
+  filter: blur(150px);
+  animation: shadow-slide infinite 4s linear alternate;
+}
+
+
+@keyframes shadow-slide {
+  from {
+    background: hsl(var(--primary) / 20%);
+    right: 460px;
+  }
+  to {
+    background: hsl(var(--primary) / 80%);
+    right: 160px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .shadow {
+    top: 70px;
+  }
+
+  @keyframes shadow-slide {
+    from {
+      background: hsl(var(--primary) / 20%);
+      right: 460px;
+    }
+    to {
+      background: hsl(var(--primary) / 50%);
+      right: 160px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .shadow {
+    top: 70px;
+    width: 100px;
+    height: 350px;
+    filter: blur(60px);
+  }
+
+  @keyframes shadow-slide {
+    from {
+      background: hsl(var(--primary) / 20%);
+      right: 280px;
+    }
+    to {
+      background: hsl(var(--primary) / 30%);
+      right: 100px;
+    }
+  }
+}
+.nullify-text {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-left: 6px;
+}
+
+/* Light mode: text turns black */
+
+.cedarville-cursive-regular {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.dancing-script  {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.image-left-aligned {
+  display: block;          /* Ensures the image is treated as a block element */
+  margin-left: 0;          /* Aligns the image to the left */
+  width: 100%;             /* Makes the image take the full width of the screen */
+  max-width: 600px;        /* Optional: Set a max width to prevent it from being too large */
+  height: auto;            /* Maintains the aspect ratio */
+  margin-right: auto;      /* Adds space after the image for alignment */
+  margin-top: 20px;  
+  border-radius: 15px;      /* Optional: Adjusts spacing from the top */
+}
