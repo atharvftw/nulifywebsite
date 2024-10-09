@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import guiimg from '../assets/gui.jpg';
 
 export const NulifyInterface = () => {
