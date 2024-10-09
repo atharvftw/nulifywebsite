@@ -30,11 +30,11 @@ const pricingList: PricingProps[] = [
     popular: 0,
     price: 0,
     description:
-      "First 30 days free, then subscription starts at standard rates.",
+      "First 30 days free trial, then subscription starts at standard rates 11$/mo.",
     buttonText: "Download Now",
     benefitList: [
-      "Camera and Raspberry Pi kit",
-      "4GB Storage",
+      "Dedication Kit with Camera and Raspberry Pi",
+      "4GB RAM Storage",
       "No Usage Limit",
       "Priority support",
       "Training & Setup Executive Session",
