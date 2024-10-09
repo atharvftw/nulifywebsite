@@ -27,7 +27,7 @@ function App() {
       <Services />
       <Team />
       <Pricing />
-      <Newsletter />
+      <ContactForm />
       <FAQ />
       <ScrollToTop />
     </>
