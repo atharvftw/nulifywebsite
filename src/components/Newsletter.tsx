@@ -30,7 +30,7 @@ export default function ContactForm() {
           </span>
         </h3>
         <p className="text-xl text-muted-foreground text-center mt-4 mb-8">
-          Have questions or feedback? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+          Let's start a conversation. We're ready to help you find the answers
         </p>
 
         <form
