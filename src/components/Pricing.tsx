@@ -86,8 +86,13 @@ export const Pricing = () => {
               </CardHeader>
 
               <CardContent>
-                <Button className="w-full h-14 text-lg">{pricing.buttonText}</Button>
+               <a href="https://github.com/atharvftw/nulifywebsite" target="_blank" rel="noopener noreferrer">
+                 <Button className="w-full h-14 text-lg">
+                   {pricing.buttonText}
+                 </Button>
+               </a>
               </CardContent>
+
 
               <hr className="w-[90%] mx-auto mb-6 opacity-30" />
 
