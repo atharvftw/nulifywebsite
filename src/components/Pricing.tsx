@@ -86,7 +86,7 @@ export const Pricing = () => {
               </CardHeader>
 
               <CardContent>
-               <a href="https://github.com/atharvftw/nulifywebsite" target="_blank" rel="noopener noreferrer">
+               <a href="https://github.com/atharvftw/Nullification-of-Vernier-Caliper-using-AI" target="_blank" rel="noopener noreferrer">
                  <Button className="w-full h-14 text-lg">
                    {pricing.buttonText}
                  </Button>
